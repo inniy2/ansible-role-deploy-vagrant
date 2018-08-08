@@ -55,7 +55,7 @@ node_directories:
     PATH: "/usr/local/bin:{{ ansible_env.PATH }}:$PATH"
 
   roles:
-    - deploy-os
+    - ansible-role-deploy-vagrant
 ```
 
 
